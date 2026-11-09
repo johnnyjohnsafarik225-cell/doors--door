@@ -1,0 +1,43 @@
+{
+    "name": "doors & door",
+    "description": "you are a guy named boom stuck in a cave maze with outcomes",
+    "dependencies": {
+        "device": "*",
+        "adventure": "github:microsoft/arcade-tutorial-extensions/adventure#v0.0.12",
+        "adventure_imgs": "github:kiki-lee/adventure_imgs",
+        "arcade-tile-scanner": "github:riknoll/arcade-tile-scanner#v0.0.1",
+        "image mapping": "github:bladebaillio/image-mapping#v0.0.1",
+        "arcade-character-animations": "github:microsoft/arcade-character-animations#v0.1.0",
+        "sprite-scaling": "*",
+        "arcade-minimap": "github:microsoft/arcade-minimap#v0.6.1",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-fancy-text": "github:riknoll/arcade-fancy-text#v0.2.2",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.3",
+        "color-coded-tilemap": "*",
+        "arcade-sprite-util": "github:jwunderl/arcade-sprite-util#v0.6.0",
+        "sprite-fx": "github:kohanmathers/makecodespritefx#v1.3.0",
+        "pxt-skillmap-sample": "github:microsoft/pxt-skillmap-sample#b36c62725e3fe26fca25b64cf158878b5fccd9be"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "images.g.jres",
+        "images.g.ts",
+        "tutorial.custom.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.1.27",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "blocksprj"
+}
